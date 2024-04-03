@@ -1,4 +1,6 @@
 ## Estrutura do banco (SQL)
+
+```
 -- CreateTable
 CREATE TABLE "events" (
     "id" TEXT NOT NULL PRIMARY KEY,
@@ -34,3 +36,4 @@ CREATE UNIQUE INDEX "attendees_event_id_email_key" ON "attendees"("event_id", "e
 
 -- CreateIndex
 CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
+```
