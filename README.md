@@ -1,4 +1,4 @@
-##Estrutura do banco (SQL)
+## Estrutura do banco (SQL)
 -- CreateTable
 CREATE TABLE "events" (
     "id" TEXT NOT NULL PRIMARY KEY,
